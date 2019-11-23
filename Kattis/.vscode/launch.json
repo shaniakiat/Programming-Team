@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - gerrymandering",
+            "request": "launch",
+            "mainClass": "gerrymandering",
+            "projectName": "Kattis_45b2e9a4"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - missingnumbers",
+            "request": "launch",
+            "mainClass": "missingnumbers",
+            "projectName": "Kattis_45b2e9a4"
+        }
+    ]
+}
