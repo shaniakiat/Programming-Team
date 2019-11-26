@@ -18,6 +18,7 @@ public class mostCommonWord {
         int max = Integer.MIN_VALUE;
         int v;
         String res = "";
+        // loop through the hashmap
         for (String k : map.keySet()) {
             // System.out.println("key: " + name);
             if (!bannedList.contains(k)) {
