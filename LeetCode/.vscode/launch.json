@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - findAnagrams",
+      "request": "launch",
+      "mainClass": "findAnagrams",
+      "projectName": "LeetCode_c66f3099"
+    }
+  ]
+}

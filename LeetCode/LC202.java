@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class LC202 {
     public static void main(String[] args) {
         long startTime = System.currentTimeMillis(); // fetch starting time

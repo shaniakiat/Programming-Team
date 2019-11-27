@@ -28,5 +28,6 @@ public class LC402 {
             System.out.println(0);
         } else
             System.out.println("" + smallest);
+        sc.close();
     }
 }

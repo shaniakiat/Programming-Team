@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - findAnagrams",
+            "request": "launch",
+            "mainClass": "findAnagrams",
+            "projectName": "Programming_351edf0b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MostCommonWordd",
+            "request": "launch",
+            "mainClass": "MostCommonWordd",
+            "projectName": "Programming_351edf0b"
+        }
+    ]
+}
