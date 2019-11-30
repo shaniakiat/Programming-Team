@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - coinChange",
+      "request": "launch",
+      "mainClass": "coinChange",
+      "projectName": "LeetCode_c66f3099"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - findAnagrams",
       "request": "launch",
       "mainClass": "findAnagrams",
