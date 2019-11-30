@@ -1,40 +1,25 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class coinChange {
     public static void main(String[] args) {
-        int[] coins = { 1, 2, 5 };
-        int amount = 11;
-        ArrayList<Integer> listCoins = new ArrayList<>();
-        for (int i = 0; i < coins.length; i++) {
-            listCoins.add(coins[i]);
-        }
-        System.out.println(listCoins.toString());
-
-        int count = 0;
-        while (amount > 0) {
-            if (amount > listCoins.get(listCoins.size() - 1)) {
-                amount = amount - listCoins.get(listCoins.size() - 1);
-                System.out.println(amount);
-                count++;
-            } else {
-                if (listCoins.size() > 0)
-                    listCoins.remove(listCoins.size() - 1);
-            }
-        }
-        System.out.println(count);
+        int[] coins = { 2 };
+        int amount = 3;
+        System.out.println(coinChangeMethod(coins, amount));
     }
 
     public static int coinChangeMethod(int[] coins, int amount) {
         int[] combinations = new int[amount + 1];
-        for (int c = 0; c < coins.length; c++) {
-            for (int a = 0; a < amount; a++) {
-                if (a >= coins[c]) {
-                    combinations[a] += combinations[a - c];
+
+        Arrays.fill(combinations, amount + 1);
+        combinations[0] = 0;
+        for (int a = 1; a <= amount; a++) {
+            for (int c = 0; c < coins.length; c++) {
+                if (coins[c] <= a) {
+                    combinations[a] = Math.min(combinations[a], combinations[a - coins[c]] + 1);
                 }
             }
         }
-
-        return 0;
-
+        return combinations[amount] > amount ? -1 : combinations[amount];
     }
 }
