@@ -14,10 +14,9 @@ public class kClosest {
                 maxHeap.remove();
             }
         }
-        int[][] result = new int[K][2];
-        while (K-- > 0) {
-            result[K] = maxHeap.remove();
-            System.out.println(result[K]);
+        int[][] result = new int[k][2];
+        while (k-- > 0) {
+            result[k] = maxHeap.remove();
         }
     }
 }
