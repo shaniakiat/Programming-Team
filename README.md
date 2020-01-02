@@ -1,1 +1,1 @@
-La Salle U Programming Team / Coding Practices
+# La Salle U Programming Team / Coding Practices

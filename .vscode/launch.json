@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - avion",
+            "request": "launch",
+            "mainClass": "avion",
+            "projectName": "Programming_351edf0b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - quickestimate",
+            "request": "launch",
+            "mainClass": "quickestimate",
+            "projectName": "Programming_351edf0b"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - findAnagrams",
             "request": "launch",
             "mainClass": "findAnagrams",
