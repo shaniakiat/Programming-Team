@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - findLowestPrice",
+            "request": "launch",
+            "mainClass": "findLowestPrice",
+            "projectName": "Programming_351edf0b"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - avion",
             "request": "launch",
             "mainClass": "avion",
