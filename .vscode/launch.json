@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - largestNumber",
+            "request": "launch",
+            "mainClass": "largestNumber",
+            "projectName": "Programming_351edf0b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - longestCommonPrefix",
+            "request": "launch",
+            "mainClass": "longestCommonPrefix",
+            "projectName": "Programming_351edf0b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - merge",
+            "request": "launch",
+            "mainClass": "merge",
+            "projectName": "Programming_351edf0b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - sortColors",
+            "request": "launch",
+            "mainClass": "sortColors",
+            "projectName": "Programming_351edf0b"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - findLowestPrice",
             "request": "launch",
             "mainClass": "findLowestPrice",
