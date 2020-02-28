@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - titleToNumber",
+            "request": "launch",
+            "mainClass": "titleToNumber",
+            "projectName": "Programming_351edf0b"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - largestNumber",
             "request": "launch",
             "mainClass": "largestNumber",
