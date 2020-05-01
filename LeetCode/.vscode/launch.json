@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - plusOne",
+      "request": "launch",
+      "mainClass": "plusOne",
+      "projectName": "LeetCode_c66f3099"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - processQueries",
+      "request": "launch",
+      "mainClass": "processQueries",
+      "projectName": "LeetCode_c66f3099"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - coinChange",
       "request": "launch",
       "mainClass": "coinChange",
