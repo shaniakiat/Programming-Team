@@ -3,27 +3,32 @@ import java.util.LinkedHashMap;
 
 public class firstUniqChar {
     public static void main(String[] args) {
-        String s = "cc";
-        char[] c = s.toCharArray();
+        String s = "leetcode";
+        int res = -1;
         LinkedHashMap<Character, Integer> map = new LinkedHashMap<>();
-        for (int i = 0; i < c.length; i++) {
-            map.put(c[i], map.getOrDefault(c[i], 0) + 1);
-        }
-        int min = Integer.MAX_VALUE;
-        char letter = 'l';
-        for (char l : map.keySet()) {
-            if (map.get(l) <= min) {
-                min = map.get(l);
-                letter = l;
+
+        char indexChar = '0';
+        for (int i = 0; i < s.length(); i++) {
+            char tempChar = s.charAt(i);
+            if (map.containsKey(tempChar)) {
+                map.put(tempChar, map.get(tempChar) + 1);
+            } else {
+                map.put(tempChar, 1);
             }
         }
-        if (min > 0) {
-            return -1;
-        } else {
-            return s.indexOf(letter);
-        }
-        System.out.println(min);
         System.out.println(map.toString());
-        System.out.println(s.indexOf(letter));
+
+        for (char n : map.keySet()) {
+            int v = map.get(n);
+            if (v == 1) {
+                indexChar = n;
+                break;
+                // System.out.println(n);
+            }
+        }
+        if (s.contains("" + indexChar)) {
+            return s.indexOf("" + indexChar);
+        } else
+            return res;
     }
 }

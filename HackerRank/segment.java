@@ -21,9 +21,7 @@ public class segment {
 
         for (int i = 0; i < arr.size() - 2; i++) {
             ArrayList<Integer> temp = new ArrayList<>();
-            temp.add(arr.get(i));
-            temp.add(arr.get(i + 1));
-            temp.add(arr.get(i + 2));
+            
             Collections.sort(temp);
             // for (int j = i; j < x + 1; j++) {
             // temp.add(arr.get(i));
