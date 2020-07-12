@@ -14,7 +14,7 @@ public class shuffle {
         int[] result = new int[2 * n];
         for (int i = 0; i < 2 * n; i++) {
             result[i] = list.get(i);
-            System.out.println(result[i]);
+            // System.out.println(result[i]);
         }
     }
 }
