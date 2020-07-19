@@ -4,7 +4,8 @@ public class sortString {
 
         for (int i = 0; i < s.length(); i++) {
             int temp = s.charAt(i);
-            System.out.println(temp);
+            
+            if()
         }
     }
 }
