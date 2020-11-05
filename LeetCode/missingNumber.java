@@ -4,16 +4,20 @@ import java.util.Arrays;
 public class missingNumber {
     public static void main(String[] args) {
         int[] nums = { 3, 0, 1 };
-        ArrayList<Integer> list = new ArrayList<>(nums.length);
+        Arrays.sort(nums);
 
-        for (int i : nums) {
-            list.add(Integer.valueOf(i));
-        }
-
-        for (int i = 0; i < nums.length; i++) {
-            if (list.contains(nums[i])) {
-
+        if(nums.length - 1 != nums[nums.length-1]){
+            System.out.println(nums.length-1);
+        } else if( nums[0] != 0){
+            System.out.println(0);
+        } else{
+            for(int i = 1; i < nums.length-1; i++){
+                if(nums[i] != i)
+                {
+                    System.out.println(i);
+                }
             }
         }
+    
     }
 }
