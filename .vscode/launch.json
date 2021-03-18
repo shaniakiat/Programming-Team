@@ -2,6 +2,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch dominatingduos",
+            "request": "launch",
+            "mainClass": "dominatingduos",
+            "projectName": "Programming-Team_bd46ee75"
+        },
+        {
+            "type": "java",
+            "name": "Launch missingNumber",
+            "request": "launch",
+            "mainClass": "missingNumber",
+            "projectName": "Programming-Team_bd46ee75"
+        },
+        {
+            "type": "java",
+            "name": "Launch nothanks",
+            "request": "launch",
+            "mainClass": "nothanks",
+            "projectName": "Programming-Team_bd46ee75"
+        },
+        {
+            "type": "java",
+            "name": "Launch thisaintyourgrandpascheckerboard",
+            "request": "launch",
+            "mainClass": "thisaintyourgrandpascheckerboard",
+            "projectName": "Programming-Team_bd46ee75"
+        },
+        {
+            "type": "java",
+            "name": "Launch kafkaesque",
+            "request": "launch",
+            "mainClass": "kafkaesque",
+            "projectName": "Programming-Team_bd46ee75"
+        },
+        {
+            "type": "java",
+            "name": "Launch finalexam2",
+            "request": "launch",
+            "mainClass": "finalexam2",
+            "projectName": "Programming-Team_bd46ee75"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - titleToNumber",
             "request": "launch",
             "mainClass": "titleToNumber",

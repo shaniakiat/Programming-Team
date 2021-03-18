@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch fyi",
+            "request": "launch",
+            "mainClass": "fyi",
+            "projectName": "Kattis_f5688efa"
+        },
+        {
+            "type": "java",
+            "name": "Launch shatteredcake",
+            "request": "launch",
+            "mainClass": "shatteredcake",
+            "projectName": "Kattis_f5688efa"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - gerrymandering",
             "request": "launch",
             "mainClass": "gerrymandering",
